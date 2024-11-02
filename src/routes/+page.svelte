@@ -57,6 +57,10 @@
     ];
 </script>
 
+<svelte:head>
+    <title>AreRoundedBordersBetter?</title>
+</svelte:head>
+
 <div class="homesection m-4 h-page-less">
         <h1 class="title text-6xl mt-40 mx-20">
                 {#each titleArray as letter}
