@@ -149,7 +149,7 @@
 <div class="downloads mx-24">
         <h2 class="text-4xl mt-8 font-bold">Project files downloads</h2>
         <p class="text-xl mt-4 mb-2">
-            All of these designs where made on <a href="https://lu2000luk.com" class="underline decoration-sky-500 decoration-wavy hover:bg-white rounded bg-opacity-15 transition-all hover:p-2 hover:text-gray-800">Penpot</a><br>
+            All of these designs where made on <a href="https://penpot.app/" class="underline decoration-sky-500 decoration-wavy hover:bg-white rounded bg-opacity-15 transition-all hover:p-2 hover:text-gray-800">Penpot</a><br>
             You can download the project files here: <br>
         </p>
         <div class="download-files">
