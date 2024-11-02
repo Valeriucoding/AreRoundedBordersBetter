@@ -137,7 +137,7 @@
             <img src="example_3_sharp.png" width="40%" alt="Sharp borders">
         </div>
         <p class="text-xl mt-4">
-            In this cade i prefer the <b>sharp</b> one. <br>
+            In this case i prefer the <b>sharp</b> one. <br>
             The rounded one looks too playful for a login page. <br>
             We are talking about security here, no time for games. <br>
             (All jokes aside the sharp one looks more professional but the rounded one dosen't look bad at all) <br>
