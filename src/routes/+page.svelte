@@ -156,11 +156,11 @@
             {#each downloadFiles as downloadFile}
                 <div class="download-file mt-2">
                     <h3 class="text-2xl font-bold">{downloadFile.name}</h3>
-                    <button class="m-2 hover:bg-white rounded-lg bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800"><a href={downloadFile.files.rounded_project} download>Rounded project</a></button>
-                    <button class="m-2 hover:bg-white bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800"><a href={downloadFile.files.sharp_project} download>Sharp project</a></button>
+                    <a href={downloadFile.files.rounded_project} download><button class="m-2 hover:bg-white rounded-lg bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800">Rounded project</button></a>
+                    <a href={downloadFile.files.sharp_project} download><button class="m-2 hover:bg-white bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800">Sharp project</button></a>
 
-                    <button class="m-2 hover:bg-white rounded-lg bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800"><a href={downloadFile.files.rounded_image} download>Rounded image</a></button>
-                    <button class="m-2 hover:bg-white bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800"><a href={downloadFile.files.sharp_image} download>Sharp image</a></button>
+                    <a href={downloadFile.files.rounded_image} download><button class="m-2 hover:bg-white rounded-lg bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800">Rounded image</button></a>
+                    <a href={downloadFile.files.sharp_image} download><button class="m-2 hover:bg-white bg-opacity-15 transition-all border-2 border-sky-500 p-2 hover:text-gray-800">Sharp image</button></a>
                 </div>
             {/each}
         </div>
